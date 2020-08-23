@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.background{
+  color: darkslategray;
+}
+.header-title{
+  background-color: black;
+  height: '200px';
+}
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +29,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {

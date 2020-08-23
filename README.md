@@ -1,5 +1,5 @@
 ## This is my portfolio website code which is currently under development.
-Visit https://pranjan.github.io/pratyush/  
+Visit https://pranjanpr.github.io/pratyush/  
 
 
 

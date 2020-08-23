@@ -5,7 +5,7 @@
   color: darkslategray;
 }
 .header-title{
-  background-color: black;
+  background-color: rgb(175, 21, 21);
   height: '200px';
 }
 
@@ -21,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d2330;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,11 +36,58 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  box-sizing: border-box;
 }
+
+.typewriter-text {
+  overflow: hidden;
+  position: relative;
+  width: 18em;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 38px;
+  white-space: nowrap;
+
+  animation: typewriter 3s steps(34) 1s 1 normal both,
+  blinkTextCursor 400ms steps(34) infinite normal;
+
+}
+
+/*
+
+  animation-name: typewriter;
+  animation-duration: 4s;
+  animation-timing-function: steps(44);
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+*/
+
+
+@keyframes typewriter{
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 13em;
+  }
+
+
+}
+
+
+@keyframes blinkTextCursor {
+
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+
+}
+

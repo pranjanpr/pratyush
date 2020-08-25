@@ -27,17 +27,35 @@ html,body {
 
 .App-header {
  position: fixed;
- 
+ z-index: 9999;
   width: 100vw;
-  background-color: #5a71a8;
+  background-color: rgba(9, 5, 26, 0.87);
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
+ justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
-  
+  text-decoration:none ;
+  padding: 0 40px;
+}
+.name{
+  margin-left:1rem;
+}
+.main-nav ul{
+  display:flex;
+  margin:0;
+  padding: 0;
+  list-style:none;
+
+}
+.main-nav a{
+  color:inherit;
+  text-decoration:none;
+  padding: 1rem;
+}
+.main-nav a:hover{
+  color:#adadad;
 }
 .App-body {
   background-color: #1d2330;
@@ -45,6 +63,7 @@ html,body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  width:80%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,6 +71,7 @@ html,body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  float:right;
   
 }
 .App-body-2{
@@ -136,13 +156,15 @@ html,body {
   line-height: 1.5;
   word-spacing: 4px;
   letter-spacing: 1px;
-  width: 25%;
+  width: 20%;
+  position: fixed;
+  background-color: #A43F49 ;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;
-  background-image: url('https://www.dl.dropboxusercontent.com/s/jcord1lxh30e02z/bg2.jpg');
+  
   float:left;
   
 }
@@ -152,7 +174,7 @@ html,body {
   line-height: 1.5;
   word-spacing: 4px;
   letter-spacing: 1px;
-  width: 75%;
+  width: 80%;
   float:right;
   
 }

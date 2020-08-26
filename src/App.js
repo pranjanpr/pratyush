@@ -12,15 +12,12 @@ import _ from 'lodash'
 import {render} from 'react-dom';
 import Sticky from './components/Sticky';
 import Blog from './components/Blogs';
-
+import Test from './components/Test';
 
 
 
 const App=() =>{
-  
-
-  
-return (
+  return (
   <div>
   
   <Blog/>

@@ -12,11 +12,7 @@ const  fade=useSpring({
 
 })
 const props = useSpring({ number: 1, from: { number: 0 } })
-
-
-
-
-    return (
+return (
         <div >
         <h1 ><animated.span>{props.number}</animated.span></h1>
         <button onClick={()=>setToggle(!isToggled)}>Toggle</button>

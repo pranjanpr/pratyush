@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/pratyush/static/css/main.cf728268.chunk.css",
-    "main.js": "/pratyush/static/js/main.647879a7.chunk.js",
-    "main.js.map": "/pratyush/static/js/main.647879a7.chunk.js.map",
+    "main.css": "/pratyush/static/css/main.9929cf51.chunk.css",
+    "main.js": "/pratyush/static/js/main.a59e0d2f.chunk.js",
+    "main.js.map": "/pratyush/static/js/main.a59e0d2f.chunk.js.map",
     "runtime-main.js": "/pratyush/static/js/runtime-main.896e6180.js",
     "runtime-main.js.map": "/pratyush/static/js/runtime-main.896e6180.js.map",
-    "static/js/2.e24678f7.chunk.js": "/pratyush/static/js/2.e24678f7.chunk.js",
-    "static/js/2.e24678f7.chunk.js.map": "/pratyush/static/js/2.e24678f7.chunk.js.map",
+    "static/js/2.d021ac26.chunk.js": "/pratyush/static/js/2.d021ac26.chunk.js",
+    "static/js/2.d021ac26.chunk.js.map": "/pratyush/static/js/2.d021ac26.chunk.js.map",
     "index.html": "/pratyush/index.html",
-    "precache-manifest.0b82775f0f7b7d470b79e3d02c5425f4.js": "/pratyush/precache-manifest.0b82775f0f7b7d470b79e3d02c5425f4.js",
+    "precache-manifest.bafcfbe82a7da390fcedccbf5d7ead15.js": "/pratyush/precache-manifest.bafcfbe82a7da390fcedccbf5d7ead15.js",
     "service-worker.js": "/pratyush/service-worker.js",
-    "static/css/main.cf728268.chunk.css.map": "/pratyush/static/css/main.cf728268.chunk.css.map",
-    "static/js/2.e24678f7.chunk.js.LICENSE.txt": "/pratyush/static/js/2.e24678f7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/pratyush/static/media/backg.3b93c750.png",
+    "static/css/main.9929cf51.chunk.css.map": "/pratyush/static/css/main.9929cf51.chunk.css.map",
+    "static/js/2.d021ac26.chunk.js.LICENSE.txt": "/pratyush/static/js/2.d021ac26.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pratyush/static/media/iitk.baf78ccf.jpg",
+    "static/media/ecell.png": "/pratyush/static/media/ecell.d819514c.png",
+    "static/media/fac.png": "/pratyush/static/media/fac.fa930434.png",
+    "static/media/iitklogo.png": "/pratyush/static/media/iitklogo.45e01f72.png",
     "static/media/logo.svg": "/pratyush/static/media/logo.5d5d9eef.svg",
-    "static/media/logo512.png": "/pratyush/static/media/logo512.ed1e5f4d.png"
+    "static/media/logo513.png": "/pratyush/static/media/logo513.7529f1f8.png",
+    "static/media/side.png": "/pratyush/static/media/side.02215aa1.png",
+    "static/media/tcg.png": "/pratyush/static/media/tcg.58bc8fa3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.896e6180.js",
-    "static/js/2.e24678f7.chunk.js",
-    "static/css/main.cf728268.chunk.css",
-    "static/js/main.647879a7.chunk.js"
+    "static/js/2.d021ac26.chunk.js",
+    "static/css/main.9929cf51.chunk.css",
+    "static/js/main.a59e0d2f.chunk.js"
   ]
 }

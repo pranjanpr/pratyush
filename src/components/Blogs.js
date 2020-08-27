@@ -30,7 +30,7 @@ return(
       <nav className="main-nav">
         <ul>
           <li><a href="/about">About</a></li>
-          <li><a href="/resume">Resume</a></li>
+          <li><a>Resume</a></li>
         </ul>
       </nav>
 
@@ -45,7 +45,7 @@ return(
       <animated.nav className="main-navv" role="navigation" style={spring3}>
         <ul className="main-menu">
           <li><a href="#first" >About Me</a></li>
-          <li><a href="#second">My Work</a></li>
+          <li><a href="#second">Timeline</a></li>
           <li><a href="#third">CP Handles</a></li>
           <li><a href="#section4">Contact Me</a></li>
           
@@ -99,11 +99,11 @@ return(
         <p>In my spare time you can catch me sketching stuff or watching videos or procastinating things. You can find me in C-609, Hall-13 (search in adjacent rooms too) or at CC building.</p>
         </div>
       </div>
-      <div className="scroll-bg">
+      <div className="scroll-bg" id="second">
         <h1>Timeline</h1>
         <Timeline/>
       </div>
-      <div className="fixed-bg bg-2" id="second">
+      <div className="fixed-bg bg-2" >
         <h1>Fixed Background scrolling</h1>
       </div>
       <div className="scroll-bg">

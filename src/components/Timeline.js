@@ -30,13 +30,11 @@ export default function CustomizedTimeline() {
     <Timeline align="alternate">
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-            9:30 am
-          </Typography>
+          
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot>
-            <img className="imagee" src={require('./imagestime/ecell.png')} alt="" />
+            <img className="imagee" src={require('./imagestime/tcg.png')} alt="" />
             
           </TimelineDot>
           <TimelineConnector />
@@ -44,47 +42,45 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Eat
+              June20 - July20
             </Typography>
-            <Typography>Because you need strength</Typography>
+            <Typography>ML Internship</Typography>
             
           </Paper>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-            10:00 am
-          </Typography>
+          
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot color="primary">
-          <img className="imagee" src={require('./imagestime/fac.png')} alt="" />
+          <img className="imagee" src={require('./imagestime/ecell.png')} alt="" />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Code
+              May20 - Present
             </Typography>
-            <Typography>Because it&apos;s awesome!</Typography>
+            <Typography>SIP Secretary</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" variant="outlined">
-          <img className="imagee" src={require('./imagestime/tcg.png')} alt="" />
+          <img className="imagee" src={require('./imagestime/fac.png')} alt="" />
           </TimelineDot>
           <TimelineConnector className={classes.secondaryTail} />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Sleep
+              April20 - Present
             </Typography>
-            <Typography>Because you need rest</Typography>
+            <Typography>Fine Arts Club Secretary</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -95,12 +91,7 @@ export default function CustomizedTimeline() {
           </TimelineDot>
         </TimelineSeparator>
         <TimelineContent>
-          <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Repeat
-            </Typography>
-            <Typography>Because this is the life you love!</Typography>
-          </Paper>
+         
         </TimelineContent>
       </TimelineItem>
       

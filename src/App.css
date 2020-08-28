@@ -271,7 +271,7 @@ html,body {
 
 }
 .fixed-black{
-  background-color:  rgba(38, 32, 56, 0.8);
+  background-color:  rgba(38, 32, 56, 0.95);
   color:white;
   width:70%;
   height:60vh;
@@ -280,12 +280,13 @@ html,body {
   
   left:15%;
   top:20vh;
-  border-radius: 30px;
+  
  
 }
 .fixed-black h1{
-  
+  padding-top: 4vh;
   padding-left:26vw;
+  font-family: 'Lato';
   font-style:bold;
   text-align: center;
   align-items: center;
@@ -296,12 +297,47 @@ html,body {
   display: table-cell;
   vertical-align: middle;
 }
+.fixed{
+  background-color:  rgba(38, 32, 56);
+  color:white;
+  width:70%;
+  height:60vh;
+  
+  position: relative;
+  left:15%;
+  top:20vh;
+  
+ 
+}
+.fixed h1{
+  padding-top: 3vh;
+  padding-left: 3vw;
+  color:white;
+  font-family: 'Lato';
+  
+
+}
+.fixed h2{
+  
+  font-family: 'Lato';
+  align-self: left;
+}
 
 .scroll-bg {
   background-color: #0f0f0a;
   padding: 10px 70px;
   color: #676767;
   width:100%;
+}
+.scroll-bg h1{
+  padding-top: 8vh;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.scroll-bg h4{
+  
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* first section */

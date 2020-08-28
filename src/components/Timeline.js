@@ -7,10 +7,7 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
+
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
@@ -41,7 +38,7 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
+            <Typography variant="h6" component="h2">
               June20 - July20
             </Typography>
             <Typography>ML Internship</Typography>
@@ -61,7 +58,7 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
+            <Typography variant="h6" component="h2">
               May20 - Present
             </Typography>
             <Typography>SIP Secretary</Typography>
@@ -77,7 +74,7 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
+            <Typography variant="h6" component="h2">
               April20 - Present
             </Typography>
             <Typography>Fine Arts Club Secretary</Typography>

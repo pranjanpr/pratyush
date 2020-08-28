@@ -1,14 +1,15 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import '../App.css';
 
-import {BrowserRouter as Router ,Link} from 'react-router-dom';
-import Main from './main';
+
+
 import Typical from 'react-typical';
 import {useSpring,animated} from 'react-spring';
-import {faTwitter,faInstagram,faLinkedinIn,faFacebookF,faGithub,faKaggle} from "@fortawesome/free-brands-svg-icons"
-import {faAngleDoubleDown} from "@fortawesome/free-solid-svg-icons"
+import {faLinkedinIn,faFacebookF,faGithub,faKaggle} from "@fortawesome/free-brands-svg-icons"
+import {faAngleDoubleDown,faMapMarkerAlt,faPhoneAlt,faMailBulk} from "@fortawesome/free-solid-svg-icons"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Test from './Test';
+
 import Timeline from './Timeline';
 
 const Blogs=()=>{
@@ -29,8 +30,8 @@ return(
 
       <nav className="main-nav">
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a>Resume</a></li>
+        <li><a >Blogs</a></li>
+          <li><a href="https://docs.google.com/gview?url=https://github.com/pranjanpr/pratyush/raw/master/public/Pratyush_Ranjan_Resume%20(3).pdf&embedded=true" target="_blank" >Resume</a></li>
         </ul>
       </nav>
 
@@ -46,8 +47,8 @@ return(
         <ul className="main-menu">
           <li><a href="#first" >About Me</a></li>
           <li><a href="#second">Timeline</a></li>
-          <li><a href="#third">CP Handles</a></li>
-          <li><a href="#section4">Contact Me</a></li>
+          
+          <li><a href="#third">Contact Me</a></li>
           
         </ul>
  
@@ -57,7 +58,7 @@ return(
       <ul className="soial-icons">
         <li><a href="https://www.facebook.com/pratyush.ranjan.54540/"><FontAwesomeIcon  icon={faFacebookF} /></a></li>
         <li><a href="https://www.linkedin.com/in/pratyush-ranjan-iitk/"><FontAwesomeIcon  icon={faLinkedinIn} /></a></li>
-        <li><a ><FontAwesomeIcon  icon={faKaggle} /></a></li>
+        <li><a href="https://www.kaggle.com/pratyushranjan20"><FontAwesomeIcon  icon={faKaggle} /></a></li>
         
         <li><a href="https://www.github.com/pranjanpr"><FontAwesomeIcon  icon={faGithub} /></a></li>
       </ul>
@@ -103,17 +104,22 @@ return(
         <h1>Timeline</h1>
         <Timeline/>
       </div>
-      <div className="fixed-bg bg-2" >
-        <h1>Fixed Background scrolling</h1>
+      <div className="fixed-bg bg-2" id="third" >
+        
+        <div className="fixed" >
+        <h1>Contacts :</h1>
+        <h2><FontAwesomeIcon  icon={faMapMarkerAlt} /> Address</h2>
+        <p>C-609 Hall 13, IIT KANPUR</p>
+        <h2><FontAwesomeIcon  icon={faPhoneAlt} /> Phone</h2>
+        <p>+91 7310797025</p>
+        <h2><FontAwesomeIcon  icon={faMailBulk} /> Email</h2>
+        <p>pratyush.ranjan911@gmail.com</p>
+        <p>pranjan@iitk.ac.in</p>
+        </div>
       </div>
-      <div className="scroll-bg">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in dolor tempor, posuere mi id, eleifend magna. Nulla at lectus magna.</h3>
-      </div>
-      <div className="fixed-bg bg-3" id="third">
-        <h1>Fixed Background scrolling</h1>
-      </div>
-      <div className="scroll-bg">
-      <p>Copyright© 2020 Pratyush Ranjan</p>
+      
+      <div className="scroll-bg" >
+      <h4>Copyright© 2020 Pratyush Ranjan</h4>
       </div>
       
     </div> 

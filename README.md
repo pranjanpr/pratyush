@@ -1,4 +1,4 @@
-## This is my portfolio website code which is currently under development.
+## This is my portfolio website.
 Visit https://pranjanpr.github.io/pratyush/  
 
 

@@ -5,7 +5,7 @@ import '../App.css';
 
 import Typical from 'react-typical';
 import {useSpring,animated} from 'react-spring';
-import {faLinkedinIn,faFacebookF,faGithub,faKaggle} from "@fortawesome/free-brands-svg-icons"
+import {faLinkedinIn,faFacebookF,faGithub,faKaggle,faTwitter } from "@fortawesome/free-brands-svg-icons"
 import {faAngleDoubleDown,faMapMarkerAlt,faPhoneAlt,faMailBulk} from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -31,7 +31,7 @@ return(
       <nav className="main-nav">
         <ul>
         <li><a >Blogs</a></li>
-          <li><a href="https://docs.google.com/gview?url=https://github.com/pranjanpr/pratyush/raw/master/public/Pratyush_Ranjan_Resume%20(3).pdf&embedded=true" target="_blank" >Resume</a></li>
+          <li><a href="https://pranjanpr.github.io/pratyush/Pratyush_Ranjan_Resume%20(3).pdf" target="_blank" >Resume</a></li>
         </ul>
       </nav>
 
@@ -59,7 +59,7 @@ return(
         <li><a href="https://www.facebook.com/pratyush.ranjan.54540/"><FontAwesomeIcon  icon={faFacebookF} /></a></li>
         <li><a href="https://www.linkedin.com/in/pratyush-ranjan-iitk/"><FontAwesomeIcon  icon={faLinkedinIn} /></a></li>
         <li><a href="https://www.kaggle.com/pratyushranjan20"><FontAwesomeIcon  icon={faKaggle} /></a></li>
-        
+        <li><a href="https://twitter.com/ran_pratyush"><FontAwesomeIcon  icon={faTwitter} /></a></li>
         <li><a href="https://www.github.com/pranjanpr"><FontAwesomeIcon  icon={faGithub} /></a></li>
       </ul>
     </div>
@@ -95,8 +95,8 @@ return(
         <div className="fixed-black">
         <h1>About</h1>
         <p> </p>
-        <p>I am a rising sophomore at IIT Kanpur majoring in Civil Department (hoping for a branch change soon). I love to develop cool things (probably owning a website😜) and I am always up for listening interactions of algorithms and mathematics. You can probably snatch away my attention if you come up with some business idea or an awesome deep learning project idea or a mind-boggling CP question.</p>
-        <p>I have experience in Front end development and I am growing towards Backend as well having currently Django in my pocket. I can pretty much apply deep learning models as well and I have some internship experience about it also. I am pretty familier with new technologies and just need a good internet to dive on to apply those.</p>
+        <p>I am a rising sophomore at IIT Kanpur majoring in Mechanical Department. I love to develop cool things and I am always up for listening interactions of algorithms and mathematics. You can probably snatch away my attention if you come up with some business idea or an awesome deep learning project idea or a mind-boggling CP question.</p>
+        <p>I have experience in Front end development and I am growing towards Backend as well having currently Django in my pocket. I can pretty much apply deep learning models and have some internship experience about it also. I am pretty familier with new technologies and just need a good internet to dive on to apply those.</p>
         <p>In my spare time you can catch me sketching stuff or watching videos or procastinating things. You can find me in C-609, Hall-13 (search in adjacent rooms too) or at CC building.</p>
         </div>
       </div>

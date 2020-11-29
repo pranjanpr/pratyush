@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://pranjanpr.github.io/pratyush/</loc>
-		
-	</url>
-	<url>
-		<loc>https://pranjanpr.github.io/pratyush/Pratyush_Ranjan_Resume%20(3).pdf</loc>
-		
-	</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://pranjanpr.github.io/pratyush/</loc>
+<lastmod>2020-11-28T14:02:28+00:00</lastmod>
+</url>
 </urlset>

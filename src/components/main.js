@@ -10,8 +10,6 @@ const Main=()=>{
         <Switch>
         <Route exact path="/about" component={About}/>
         <Route path="/resume" component={Resume}/>
-        
-        
         </Switch>
         </BrowserRouter>
     );

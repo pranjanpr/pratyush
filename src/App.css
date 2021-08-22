@@ -230,7 +230,7 @@ html,body {
 
   height: 100vh;
   font-family: 'Lato', sans-serif;
-  
+  padding-top: 150px;
   line-height: 1.5;
   word-spacing: 4px;
   letter-spacing: 0.5px;

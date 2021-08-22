@@ -1,5 +1,6 @@
-import React from 'react';
-import '../App.css';
+import React,{useRef, useState} from 'react';
+import Timeline from './Timeline';
+import './blogstyle.css'
 
 
 
@@ -10,7 +11,6 @@ import {faAngleDoubleDown,faMapMarkerAlt,faPhoneAlt,faMailBulk} from "@fortaweso
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Timeline from './Timeline';
 
 const Blogs=()=>{
     const springs = useSpring({from:{ marginTop: -1000}, to:{ marginTop: 0 }})
@@ -20,111 +20,163 @@ const Blogs=()=>{
       duration: 1200,
     },})
 
+    const toggler = useRef()
+    const [curr,Setcurr] = useState(false)
+
+    const showMenu = (toggleId, navId) =>{
+      const toggle = document.getElementById(toggleId),
+      nav = document.getElementById(navId)
+  
+      if(toggle && nav){
+          toggle.addEventListener('click', ()=>{
+              nav.classList.toggle('show')
+          })
+      }
+  }
+  showMenu('nav-toggle','nav-menu')
+
+/*===== ACTIVE AND REMOVE MENU =====*/
+const navLink = document.querySelectorAll('.nav__link');   
+
+function linkAction(){
+  /*Active link*/
+  navLink.forEach(n => n.classList.remove('active'));
+  this.classList.add('active');
+  
+  /*Remove menu mobile*/
+  const navMenu = document.getElementById('nav-menu')
+  navMenu.classList.remove('show')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
+
+function toggleright(){
+
+  console.log(toggler.current)
+  Setcurr(!curr)
+  toggler.current.classList.toggle('show')
+}
+
 return(
-
-  <div className="App" >
-
-    <animated.header className="App-header" style={springs}>
-      
-      <div className="name">Pratyush Ranjan</div>
-
-      <nav className="main-nav">
-        <ul>
-        <li><a >Blogs</a></li>
-          <li><a href="https://pranjanpr.github.io/pratyush/Pratyush_Ranjan_Resume%20(3).pdf" target="_blank" >Resume</a></li>
-        </ul>
-      </nav>
-
-    </animated.header>
-
-    <div className="main-wrapper" >
-    <animated.div className="imagediv" style={spring4}>
-      <a href="#"><img className="imagee" src={require('./side.png')} alt="" /></a>
-    </animated.div>
-    <div className="codeforce"><a href="https://www.codechef.com/users/eleganc">eleganc</a></div>
-    <div className="codeforce-jr"><a>Codechef</a></div>
-      <animated.nav className="main-navv" role="navigation" style={spring3}>
-        <ul className="main-menu">
-          <li><a href="#first" >About Me</a></li>
-          <li><a href="#second">Timeline</a></li>
-          
-          <li><a href="#third">Contact Me</a></li>
-          
-        </ul>
- 
-      </animated.nav>
-
-    <div className="social-network">
-      <ul className="soial-icons">
-        <li><a href="https://www.facebook.com/pratyush.ranjan.54540/"><FontAwesomeIcon  icon={faFacebookF} /></a></li>
-        <li><a href="https://www.linkedin.com/in/pratyush-ranjan-iitk/"><FontAwesomeIcon  icon={faLinkedinIn} /></a></li>
-        <li><a href="https://www.kaggle.com/pratyushranjan20"><FontAwesomeIcon  icon={faKaggle} /></a></li>
-        <li><a href="https://twitter.com/ran_pratyush"><FontAwesomeIcon  icon={faTwitter} /></a></li>
-        <li><a href="https://www.github.com/pranjanpr"><FontAwesomeIcon  icon={faGithub} /></a></li>
-      </ul>
-    </div>
-
-  </div>
-
-    <div className="App-body">
-      <animated.div style={spring2}>
-        <img className="pict" src={require('./logo513.png')} />
-      </animated.div >
+  <div>
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'></link>
+  <header class="l-header">
+  <nav class="nav bd-grid">
       <div>
-      <p>
-        <Typical
-          loop={Infinity}
-          steps={[
-          'Hey All ! 👋 I am Pratyush Ranjan ',
-          1500,
-          'developer',
-          1000,
-          'competitive coder',
-          1000,
-          'deep learner',
-          1000,
-          'LETS DIVE Innnn...✨',
-          1000,]}/>
-      </p>
-      </div> 
-      <div className="sliding-icon"><a href="#first"><FontAwesomeIcon size='2x' icon={faAngleDoubleDown} /></a></div>  
-    </div>
+          <a href="#" class="nav__logo">Pratyush</a>
+      </div>
 
-    <div className="wrapper">
-      <div className="fixed-bg bg-1" id="first">
-        <div className="fixed-black">
-        <h1>About</h1>
-        <p> </p>
-        <p>I am a rising sophomore at IIT Kanpur majoring in Mechanical Department. I love to develop cool things and I am always up for listening interactions of algorithms and mathematics. You can probably snatch away my attention if you come up with some business idea or an awesome deep learning project idea or a mind-boggling CP question.</p>
-        <p>I have experience in Front end development and I am growing towards Backend as well having currently Django in my pocket. I can pretty much apply deep learning models and have some internship experience about it also. I am pretty familier with new technologies and just need a good internet to dive on to apply those.</p>
-        <p>In my spare time you can catch me sketching stuff or watching videos or procastinating things. You can find me in C-609, Hall-13 (search in adjacent rooms too) or at CC building.</p>
-        </div>
+      <div class="nav__menu" id="nav-menu" ref={toggler}>
+          <ul class="nav__list">
+              <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+              <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+              <li class="nav__item"><a href="https://pranjanpr.github.io/pratyush/Pratyush_Ranjan_Resume%20(3).pdf" class="nav__link">Resume</a></li>
+          </ul>
       </div>
-      <div className="scroll-bg" id="second">
-        <h1>Timeline</h1>
-        <Timeline/>
+
+      <div class="nav__toggle" id="nav-toggle" onClick={toggleright} >
+          <i class='bx bx-menu'></i>
       </div>
-      <div className="fixed-bg bg-2" id="third" >
-        
-        <div className="fixed" >
-        <h1>Contacts :</h1>
-        <h2><FontAwesomeIcon  icon={faMapMarkerAlt} /> Address</h2>
-        <p>C-609 Hall 13, IIT KANPUR</p>
-        <h2><FontAwesomeIcon  icon={faPhoneAlt} /> Phone</h2>
-        <p>+91 7310797025</p>
-        <h2><FontAwesomeIcon  icon={faMailBulk} /> Email</h2>
-        <p>pratyush.ranjan911@gmail.com</p>
-        <p>pranjan@iitk.ac.in</p>
-        </div>
+  </nav>
+</header>
+
+<main class="l-main">
+
+  <section class="home bd-grid" id="home">
+      <div class="home__data">
+          <h1 class="home__title">Hi,<br/>I'am <span class="home__title-color">Pratyush</span><br/>Ranjan</h1>
+
+          <a href="#" class="button">Contact</a>
       </div>
-      
-      <div className="scroll-bg" >
-      <h4>Copyright© 2020 Pratyush Ranjan</h4>
+
+      <div class="home__social">
+          <a href="https://www.linkedin.com/in/pratyush-ranjan-iitk/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://twitter.com/ran_pratyush" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+          <a href="https://www.github.com/pranjanpr/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
       </div>
-      
-    </div> 
-    
+
+      <div class="home__img">    
+          <img src={require('./side.png')} alt=""/>
+      </div>
+  </section>
+
+
+  <section class="about section " id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about__container bd-grid">
+          <div class="about__img">
+              <img src="assets/img/about.jpg" alt=""/>
+          </div>
+          
+          <div>
+              <h2 class="about__subtitle">I'am Pratyush</h2>
+              <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+          </div>                                   
+      </div>
+  </section>
+
+  <section class="about section " id="about">
+  <div>
+    <h2 class="section-title">Experience</h2>
+    <Timeline/>
   </div>
+  </section>
+
+  <section class="work section" id="work">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="work__container bd-grid">
+          <div class="work__img">
+              <img src="assets/img/work1.jpg" alt=""/>
+          </div>
+          <div class="work__img">
+              <img src="assets/img/work2.jpg" alt=""/>
+          </div>
+          <div class="work__img">
+              <img src="assets/img/work3.jpg" alt=""/>
+          </div>
+          <div class="work__img">
+              <img src="assets/img/work4.jpg" alt=""/>
+          </div>
+          <div class="work__img">
+              <img src="assets/img/work5.jpg" alt=""/>
+          </div>
+          <div class="work__img">
+              <img src="assets/img/work6.jpg" alt=""/>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+              <input type="text" placeholder="Name" class="contact__input"/>
+              <input type="mail" placeholder="Email" class="contact__input"/>
+              <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+              <input type="button" value="Send" class="contact__button button"/>
+          </form>
+      </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  
+  <div class="footer__social">
+      <a href="https://www.linkedin.com/in/pratyush-ranjan-iitk/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+      <a href="https://www.github.com/pranjanpr/" class="footer__icon"><i class='bx bxl-github' ></i></a>
+      <a href="https://twitter.com/ran_pratyush" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+  </div>
+  <p>&#169; {(new Date().getFullYear())} copyright all right reserved</p>
+  
+</footer>
+
+</div>
 )}
 
 export default Blogs;

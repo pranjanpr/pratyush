@@ -15,8 +15,9 @@ const App=() =>{
   return (
  <Router>
     <Switch>
-      <Route path="/pratyush" component={Blog}></Route>
-      <Route path="/gsoc" component={Gsoc}></Route>
+      
+      <Route exact path='/pratyush' component={Blog}></Route>
+      <Route path='/gsoc' component={Gsoc}></Route>
     </Switch>
   </Router>
   );}

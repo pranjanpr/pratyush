@@ -30,10 +30,10 @@
     "react-typical": "^0.1.3",
     "react-use-gesture": "^7.0.15"
   },
-  "homepage": "http://pranjanpr.github.io/pratyush",
+  "homepage": "https://pranjanpr.github.io/pratyush/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

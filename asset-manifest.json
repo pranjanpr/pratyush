@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/pratyush/static/css/main.6e199eb0.chunk.css",
-    "main.js": "/pratyush/static/js/main.c2bdcd85.chunk.js",
-    "main.js.map": "/pratyush/static/js/main.c2bdcd85.chunk.js.map",
+    "main.css": "/pratyush/static/css/main.888fca0a.chunk.css",
+    "main.js": "/pratyush/static/js/main.f55a1ddf.chunk.js",
+    "main.js.map": "/pratyush/static/js/main.f55a1ddf.chunk.js.map",
     "runtime-main.js": "/pratyush/static/js/runtime-main.896e6180.js",
     "runtime-main.js.map": "/pratyush/static/js/runtime-main.896e6180.js.map",
-    "static/js/2.98d9de7b.chunk.js": "/pratyush/static/js/2.98d9de7b.chunk.js",
-    "static/js/2.98d9de7b.chunk.js.map": "/pratyush/static/js/2.98d9de7b.chunk.js.map",
+    "static/js/2.8dae6f36.chunk.js": "/pratyush/static/js/2.8dae6f36.chunk.js",
+    "static/js/2.8dae6f36.chunk.js.map": "/pratyush/static/js/2.8dae6f36.chunk.js.map",
     "index.html": "/pratyush/index.html",
-    "precache-manifest.8a80af074e724e4c95c012284318f2e4.js": "/pratyush/precache-manifest.8a80af074e724e4c95c012284318f2e4.js",
+    "precache-manifest.a90d1f8172421b7599a7e4d81be8ad90.js": "/pratyush/precache-manifest.a90d1f8172421b7599a7e4d81be8ad90.js",
     "service-worker.js": "/pratyush/service-worker.js",
-    "static/css/main.6e199eb0.chunk.css.map": "/pratyush/static/css/main.6e199eb0.chunk.css.map",
-    "static/js/2.98d9de7b.chunk.js.LICENSE.txt": "/pratyush/static/js/2.98d9de7b.chunk.js.LICENSE.txt",
+    "static/css/main.888fca0a.chunk.css.map": "/pratyush/static/css/main.888fca0a.chunk.css.map",
+    "static/js/2.8dae6f36.chunk.js.LICENSE.txt": "/pratyush/static/js/2.8dae6f36.chunk.js.LICENSE.txt",
     "static/media/App.css": "/pratyush/static/media/iitk.0b97115e.jpg",
-    "static/media/ecell.png": "/pratyush/static/media/ecell.d819514c.png",
-    "static/media/fac.png": "/pratyush/static/media/fac.fa930434.png",
-    "static/media/iitklogo.png": "/pratyush/static/media/iitklogo.45e01f72.png",
+    "static/media/dhiraj.jpg": "/pratyush/static/media/dhiraj.1804f36d.jpg",
     "static/media/logo.svg": "/pratyush/static/media/logo.5d5d9eef.svg",
-    "static/media/logo513.png": "/pratyush/static/media/logo513.7529f1f8.png",
     "static/media/side.png": "/pratyush/static/media/side.02215aa1.png",
-    "static/media/tcg.png": "/pratyush/static/media/tcg.58bc8fa3.png"
+    "static/media/till_openprinting.jpg": "/pratyush/static/media/till_openprinting.1ce8c3ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.896e6180.js",
-    "static/js/2.98d9de7b.chunk.js",
-    "static/css/main.6e199eb0.chunk.css",
-    "static/js/main.c2bdcd85.chunk.js"
+    "static/js/2.8dae6f36.chunk.js",
+    "static/css/main.888fca0a.chunk.css",
+    "static/js/main.f55a1ddf.chunk.js"
   ]
 }

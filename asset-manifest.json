@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/pratyush/static/css/main.888fca0a.chunk.css",
-    "main.js": "/pratyush/static/js/main.9e24fd3d.chunk.js",
-    "main.js.map": "/pratyush/static/js/main.9e24fd3d.chunk.js.map",
+    "main.css": "/pratyush/static/css/main.50746497.chunk.css",
+    "main.js": "/pratyush/static/js/main.59e13f19.chunk.js",
+    "main.js.map": "/pratyush/static/js/main.59e13f19.chunk.js.map",
     "runtime-main.js": "/pratyush/static/js/runtime-main.896e6180.js",
     "runtime-main.js.map": "/pratyush/static/js/runtime-main.896e6180.js.map",
-    "static/js/2.df67a368.chunk.js": "/pratyush/static/js/2.df67a368.chunk.js",
-    "static/js/2.df67a368.chunk.js.map": "/pratyush/static/js/2.df67a368.chunk.js.map",
+    "static/js/2.4e79bb50.chunk.js": "/pratyush/static/js/2.4e79bb50.chunk.js",
+    "static/js/2.4e79bb50.chunk.js.map": "/pratyush/static/js/2.4e79bb50.chunk.js.map",
     "index.html": "/pratyush/index.html",
-    "precache-manifest.543fb08b41d243f1546fac9ef5e44b49.js": "/pratyush/precache-manifest.543fb08b41d243f1546fac9ef5e44b49.js",
+    "precache-manifest.59dc16afbb6135c5332104c05b01e353.js": "/pratyush/precache-manifest.59dc16afbb6135c5332104c05b01e353.js",
     "service-worker.js": "/pratyush/service-worker.js",
-    "static/css/main.888fca0a.chunk.css.map": "/pratyush/static/css/main.888fca0a.chunk.css.map",
-    "static/js/2.df67a368.chunk.js.LICENSE.txt": "/pratyush/static/js/2.df67a368.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/pratyush/static/media/iitk.0b97115e.jpg",
+    "static/css/main.50746497.chunk.css.map": "/pratyush/static/css/main.50746497.chunk.css.map",
+    "static/js/2.4e79bb50.chunk.js.LICENSE.txt": "/pratyush/static/js/2.4e79bb50.chunk.js.LICENSE.txt",
+    "static/media/GSoC-icon.png": "/pratyush/static/media/GSoC-icon.17373c89.png",
     "static/media/dhiraj.jpg": "/pratyush/static/media/dhiraj.1804f36d.jpg",
     "static/media/logo.svg": "/pratyush/static/media/logo.5d5d9eef.svg",
+    "static/media/perfectback2.jpg": "/pratyush/static/media/perfectback2.1f5013e3.jpg",
     "static/media/side.png": "/pratyush/static/media/side.02215aa1.png",
     "static/media/till_openprinting.jpg": "/pratyush/static/media/till_openprinting.1ce8c3ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.896e6180.js",
-    "static/js/2.df67a368.chunk.js",
-    "static/css/main.888fca0a.chunk.css",
-    "static/js/main.9e24fd3d.chunk.js"
+    "static/js/2.4e79bb50.chunk.js",
+    "static/css/main.50746497.chunk.css",
+    "static/js/main.59e13f19.chunk.js"
   ]
 }

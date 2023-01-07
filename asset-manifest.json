@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/pratyush/static/css/main.9601b796.chunk.css",
-    "main.js": "/pratyush/static/js/main.e47fe59c.chunk.js",
-    "main.js.map": "/pratyush/static/js/main.e47fe59c.chunk.js.map",
+    "main.css": "/pratyush/static/css/main.d6d03e68.chunk.css",
+    "main.js": "/pratyush/static/js/main.f27aa52c.chunk.js",
+    "main.js.map": "/pratyush/static/js/main.f27aa52c.chunk.js.map",
     "runtime-main.js": "/pratyush/static/js/runtime-main.896e6180.js",
     "runtime-main.js.map": "/pratyush/static/js/runtime-main.896e6180.js.map",
-    "static/js/2.c2363d6c.chunk.js": "/pratyush/static/js/2.c2363d6c.chunk.js",
-    "static/js/2.c2363d6c.chunk.js.map": "/pratyush/static/js/2.c2363d6c.chunk.js.map",
+    "static/js/2.66997bfe.chunk.js": "/pratyush/static/js/2.66997bfe.chunk.js",
+    "static/js/2.66997bfe.chunk.js.map": "/pratyush/static/js/2.66997bfe.chunk.js.map",
     "index.html": "/pratyush/index.html",
-    "precache-manifest.6686483e4b03c2ff482746e10daef4f6.js": "/pratyush/precache-manifest.6686483e4b03c2ff482746e10daef4f6.js",
+    "precache-manifest.5e3fcfebc48242286c031003b2149718.js": "/pratyush/precache-manifest.5e3fcfebc48242286c031003b2149718.js",
     "service-worker.js": "/pratyush/service-worker.js",
-    "static/css/main.9601b796.chunk.css.map": "/pratyush/static/css/main.9601b796.chunk.css.map",
-    "static/js/2.c2363d6c.chunk.js.LICENSE.txt": "/pratyush/static/js/2.c2363d6c.chunk.js.LICENSE.txt",
+    "static/css/main.d6d03e68.chunk.css.map": "/pratyush/static/css/main.d6d03e68.chunk.css.map",
+    "static/js/2.66997bfe.chunk.js.LICENSE.txt": "/pratyush/static/js/2.66997bfe.chunk.js.LICENSE.txt",
     "static/media/GSoC-icon.png": "/pratyush/static/media/GSoC-icon.17373c89.png",
     "static/media/dhiraj.jpg": "/pratyush/static/media/dhiraj.1804f36d.jpg",
     "static/media/editedimg.png": "/pratyush/static/media/editedimg.beb8579a.png",
     "static/media/logo.svg": "/pratyush/static/media/logo.5d5d9eef.svg",
     "static/media/perfectback2.jpg": "/pratyush/static/media/perfectback2.1f5013e3.jpg",
+    "static/media/psl.png": "/pratyush/static/media/psl.fbf90c57.png",
     "static/media/till_openprinting.jpg": "/pratyush/static/media/till_openprinting.1ce8c3ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.896e6180.js",
-    "static/js/2.c2363d6c.chunk.js",
-    "static/css/main.9601b796.chunk.css",
-    "static/js/main.e47fe59c.chunk.js"
+    "static/js/2.66997bfe.chunk.js",
+    "static/css/main.d6d03e68.chunk.css",
+    "static/js/main.f27aa52c.chunk.js"
   ]
 }
